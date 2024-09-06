@@ -8,7 +8,7 @@ const origins = ["*"]
 app.use(cors(origins));
 app.use(express.json());
 
-const port = 80;
+const port = 5001;
 
 const doctorRoutes = require("./routes/Doctors");
 
